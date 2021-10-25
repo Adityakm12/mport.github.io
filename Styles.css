@@ -26,13 +26,14 @@ h2{
 	padding-top: 100px;
 }
 #avatar{
+	position: sticky;
+	margin-left: 50%;
+	margin-top: 10vh;
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
 	background-image: url("images/avatar.jpg");
 	background-size: cover;
-	justify-content: center;
-	float: right;
 }
 #name
 {
@@ -42,13 +43,12 @@ h2{
 }
 #bio
 {
+	position: sticky;
 	font-family: philospherbold;
-	padding-left: 150px;
-	width: 1000px;
-	height: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
 	font-size: 20px;
 	letter-spacing: 1px;
-	float: left;
 }
 #Resumelink
 {
