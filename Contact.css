@@ -16,16 +16,13 @@ body{
 }
 h1{
 	font-family: philospherbold;
-	font-size: 50px;
-	margin-top: 50px;
-	padding-left: 50px;
-	align-items: center;
+	font-size: 3vw;
+	margin-top: 10vh;
 }
 
 #contactdetails
 {
-	margin-left: 30%;
-	margin-top: 100px;
+	margin-top: 10vh;
 }
 
 #iconsLists
@@ -35,50 +32,55 @@ h1{
 
 .fa-file
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 .fa-phone
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
 .fa-envelope-square
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
 .fa-map-marker-alt
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
 .fa-linkedin-in
 {
-	font-size: 20px;
+	font-size: 1.5vw;
+	margin-bottom: 20px;
+}
+
+.fa-link
+{
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
 .fa-youtube
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-bottom: 20px;
 }
 
 #texticon
 {
-	margin-left: 20px;
+	margin-left: 1.5vw;
 	font-family: philospherbold;
 	color: red;
 }
-
 li,a{
 	font-family: philospherbold;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 1.3vw;
 	color: black;
 	text-decoration: none;
 }
@@ -86,9 +88,9 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 10%;
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
+	padding: 1vh 3vw;
+	border-top: 0.5vh solid red;
+	border-bottom: 0.5vh solid red;
 }
 
 .nav_links{
@@ -97,7 +99,7 @@ header{
 
 .nav_links li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 3vw;
 }
 
 .nav_links li a{
@@ -106,4 +108,82 @@ header{
 
 .nav_links li a:hover{
 	color: red;
+}
+
+@media only screen and (max-width: 600px){
+	header{
+		padding: 0vh 1vw;
+	}
+	.nav_links li a{
+	font-size: 2vw;
+	}
+	.nav_links li{
+	display: inline-block;
+	padding: 0px 1vw;
+	}
+	h1{
+	font-family: philospherbold;
+	font-size: 3vh;
+	margin-top: 5vh;
+	}
+
+	#contactdetails
+	{
+	margin-left: 30vw;
+	margin-right: 10vw;
+	margin-top: 10vh;
+	}
+
+	#iconsLists
+	{
+		list-style-type: none;
+	}
+
+	.fa-file
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+	.fa-phone
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	.fa-envelope-square
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	.fa-map-marker-alt
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	.fa-linkedin-in
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	.fa-link
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	.fa-youtube
+	{
+		font-size: 3vw;
+		margin-bottom: 20px;
+	}
+
+	#texticon
+	{
+		margin-left: 3vw;
+		font-family: philospherbold;
+		color: red;
+	}
 }
