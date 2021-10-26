@@ -109,7 +109,7 @@ header{
 	h1{
 	font-family: philospherbold;
 	font-size: 3vh;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	}
 	#container
 	{
@@ -120,11 +120,5 @@ header{
 	max-width: 40vw;
 	max-height: 30vh;
 	font-size: 2vw;
-	}
-	h1{
-	font-family: philospherbold;
-	font-size: 5vh;
-	margin-top: 5vh;
-	}
 	}
 }
