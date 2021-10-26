@@ -17,9 +17,9 @@ body{
 
 h2{
 	font-family: eightbit;
-	font-size: 20px;
+	font-size: 2vw;
 	margin-top: 20px;
-	padding-left: 150px;
+	padding-left: 10vw;
 }
 #hello
 {
@@ -39,21 +39,20 @@ h2{
 {
 	font-family: eightbit;
 	color: red;
-	font-size: large;
 }
 #bio
 {
 	position: sticky;
 	font-family: philospherbold;
-	margin-left: 150px;
-	margin-right: 150px;
-	font-size: 20px;
+	margin-left: 10vw;
+	margin-right: 20vw;
+	font-size: 1.3vw;
 	letter-spacing: 1px;
 }
 #Resumelink
 {
 	font-family: eightbit;
-	font-size: 15px;
+	font-size: 1.2vw;
 	color: red;
 }
 #wrapper
@@ -64,7 +63,7 @@ h2{
 li,a{
 	font-family: philospherbold;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 1.3vw;
 	color: black;
 	text-decoration: none;
 }
@@ -72,7 +71,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 10%;
+	padding: 5px 3vw;
 	border-top: 5px solid red;
 	border-bottom: 5px solid red;
 }
@@ -83,7 +82,7 @@ header{
 
 .nav_links li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 3vw;
 }
 
 .nav_links li a{
