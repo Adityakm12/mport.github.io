@@ -120,5 +120,10 @@ header{
 	max-height: 30vh;
 	font-size: 2vw;
 	}
-}
+	h1{
+	font-family: philospherbold;
+	font-size: 5vh;
+	margin-top: 5vh;
+	}
+	}
 }
