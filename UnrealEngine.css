@@ -16,10 +16,8 @@ body{
 }
 h1{
 	font-family: philospherbold;
-	font-size: 50px;
-	margin-top: 50px;
-	padding-left: 50px;
-	align-items: center;
+	font-size: 5vh;
+	margin-top: 10vh;
 }
 .fab{
 	color: red;
@@ -29,32 +27,36 @@ h1{
 #description{
 	font-family: philospherbold;
 	float: right;
-	width: 500px;
-	height: 100px;
+	max-width: 90vh;
+	margin-right: 10vh;
+	height: 10vh;
+	font-size: 1.1vw;
 }
-#Gameimage
+#game{
+	float: left;
+	margin-left: 10%;
+}
+#gameimages
 {
-	max-width: 100%;
-  	height: auto;
-  	padding-left: 100px;
-  	float: left;
+	width: 30vw;
+	height: 40vh;
 }
 
 #container
 {
 	width: auto;
-	height: 300px;
-	margin: auto;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding: 20px 20px;
+	height: 40vh;
+	margin-top: 1%;
+	margin-right: 2vw;
+	margin-left: 2vh;
+	padding: 1vh 1vh;
 	border: 1px solid red;
 }
 
 li,a{
 	font-family: philospherbold;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 1.3vw;
 	color: black;
 	text-decoration: none;
 }
@@ -62,9 +64,9 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 10%;
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
+	padding: 1vh 3vw;
+	border-top: 0.5vh solid red;
+	border-bottom: 0.5vh solid red;
 }
 
 .nav_links{
@@ -73,7 +75,7 @@ header{
 
 .nav_links li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 3vw;
 }
 
 .nav_links li a{
@@ -82,4 +84,37 @@ header{
 
 .nav_links li a:hover{
 	color: red;
+}
+
+@media only screen and (max-width: 600px){
+	header{
+		padding: 0vh 1vw;
+	}
+	.nav_links li a{
+	font-size: 2vw;
+	}
+	.nav_links li{
+	display: inline-block;
+	padding: 0px 1vw;
+	}
+	#gameimages
+	{
+	width: 30vw;
+	height: 20vh;
+	}
+	h1{
+	font-family: philospherbold;
+	font-size: 3vh;
+	margin-top: 10vh;
+	}
+	#container
+	{
+	border: 0px solid red;
+	}
+	#description{
+	width: 30vw;
+	margin-right: 2vw;
+	font-size: 2vw;
+	}
+}
 }
