@@ -104,7 +104,7 @@ header{
 	#gameimages
 	{
 	width: 40vw;
-	height: 20vh;
+	height: 40vw;
 	}
 	h1{
 	font-family: philospherbold;
@@ -114,6 +114,7 @@ header{
 	#container
 	{
 	border: 0px solid red;
+	height: 40vw;
 	}
 	#description{
 	max-width: 40vw;
