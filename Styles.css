@@ -23,7 +23,7 @@ h2{
 }
 #hello
 {
-	padding-top: 50px;
+	padding-top: 5vh;
 }
 #avatar{
 	position: sticky;
@@ -71,9 +71,9 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 3vw;
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
+	padding: 1vh 3vw;
+	border-top: 0.5vh solid red;
+	border-bottom: 0.5vh solid red;
 }
 
 .nav_links{
@@ -91,4 +91,26 @@ header{
 
 .nav_links li a:hover{
 	color: red;
+}
+
+@media only screen and (max-width: 600px){
+	#hello
+	{
+		padding-top: 2vh;
+	}
+	
+	#bio
+	{
+	margin-left: 3vw;
+	margin-right: 4vw;
+	font-size: 2vw;
+	letter-spacing: 0px;
+	}
+
+	h2{
+	font-size: 2vw;
+	padding-left: 3vw;
+	}
+	header{
+		padding: 0vh 1vw;
 }
