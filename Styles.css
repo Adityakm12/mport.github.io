@@ -103,14 +103,30 @@ header{
 	{
 	margin-left: 3vw;
 	margin-right: 4vw;
-	font-size: 2vw;
+	font-size: 3vw;
 	letter-spacing: 0px;
+	}
+	#avatar{
+	margin-top: 5vh;
+	}
+
+	#Resumelink
+	{
+	font-size: 3vw;
 	}
 
 	h2{
-	font-size: 2vw;
+	font-size: 3vw;
 	padding-left: 3vw;
 	}
 	header{
 		padding: 0vh 1vw;
+	}
+	.nav_links li a{
+	font-size: 2vw;
+	}
+	.nav_links li{
+	display: inline-block;
+	padding: 0px 1vw;
+	}
 }
