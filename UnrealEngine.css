@@ -49,6 +49,7 @@ h1{
 	margin-top: 1%;
 	margin-right: 2vw;
 	margin-left: 2vh;
+	margin-bottom: 1%;
 	padding: 1vh 1vh;
 	border: 1px solid red;
 }
@@ -86,6 +87,40 @@ header{
 	color: red;
 }
 
+
+footer{
+   	left: 0;
+   	bottom: 1vh;
+   	width: 100%;
+   	background-color: whitesmoke;
+   	color: white;
+   	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vh 3vw;
+	border-top: 0.5vh solid red;
+	border-bottom: 0.5vh solid red;
+	font-size: 0.1vw;
+}
+
+.Foot_links{
+	list-style: none;
+}
+
+.Foot_links li{
+	display: inline-block;
+	padding: 0px 3vw;
+}
+
+.Foot_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.Foot_links li a:hover{
+	color: red;
+}
+
 @media only screen and (max-width: 600px){
 	header{
 		padding: 0vh 1vw;
@@ -120,5 +155,16 @@ header{
 	max-width: 40vw;
 	max-height: 30vh;
 	font-size: 2vw;
+	}
+
+	footer{
+		padding: 0vh 1vw;
+	}
+	.Foot_links li a{
+	font-size: 2vw;
+	}
+	.Foot_links li{
+	display: inline-block;
+	padding: 0px 1vw;
 	}
 }
