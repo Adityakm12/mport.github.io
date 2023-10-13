@@ -436,6 +436,12 @@ li1,a1{
 	.Contact{
 	padding-top: 10%;
 	}
+	.Bio_Buttons button:hover{
+	font-size: 2vw;
+	border-bottom: 2px solid red;
+	border-radius: 30%;
+	cursor: pointer;
+	}
 }
 @media only screen and (max-width: 600px){
 
@@ -470,5 +476,4 @@ li1,a1{
 	margin-left: 50%;
 	padding-top: 0vw;
 	}
-
 }
