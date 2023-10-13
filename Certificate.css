@@ -66,6 +66,7 @@ header{
 }
 
 footer{
+	position: fixed;
    	left: 0;
    	bottom: 1vh;
    	width: 100%;
@@ -115,7 +116,7 @@ footer{
 	margin-bottom: 5vh;
 	}
 
-	/*footer{
+	footer{
 		padding: 0vh 1vw;
 	}
 	.Foot_links li a{
@@ -124,5 +125,5 @@ footer{
 	.Foot_links li{
 	display: inline-block;
 	padding: 0px 1vw;
-	}*/
+	}
 }

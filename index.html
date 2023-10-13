@@ -5,39 +5,188 @@
  <link rel="stylesheet" href="Styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="31XLip98XzCcVjyA6T4QWLB5OqFncIXh4_8Xzxuthao" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
+        <div>
+            <p> <li><a href="#Gameimage"><span id="HomeTagA">A</span><span id="HomeTag">ditya</span><span id="HomeTagA">.</span><br><span id="HomeTagB">Gameplay Programmer</span></a></li></p>
+        </div>
         <nav>
             <ul class="nav_links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="UnrealEngine.html">Unreal Engine projects</a></li>
-                <li><a href="UnityEngine.html">Unity Engine Projects</a></li>
-                <!--<li><a href="Blender.html">Blender Assets</a></li>-->
-                <li><a href="Certificate.html">Certificate</a></li>
-                <!-- <li><a href="Contact.html">Contact me</a></li> -->
+                <li><a href="#Gameimage">Home</a></li>
+                <li><a href="#MyWorksLink">Portfolio</a></li>
+                <li><a href="#ContactLink">Contacts</a></li>
             </ul>
         </nav>
     </header>
-   <div id="wrapper">
-    <div id = "avatar"></div>
+
+<div id="container1">
+    <div id = "Gameimage">
+        <div id = "game">
+        <img src="images/MyPic.jpg" alt="Shooter game" id="gameimages">
+        </div>
     </div>
-   <div id="hello">
-    <h2>HELLO,</h2>
-   </div> 
-<div id = "bio">
-    <p>My Name is <span id="name"> ADITYA KUMAR MEENA,</span> I am an Experienced Gameplay Programmer with 2 years of experience in the video games industry. I have worked at Godspeed games, Pune and have Proven knowledge of developing and implementing game mechanics and features. Skilled in Unreal Engine 4, Unreal Engine 5, game optimization, porting, bug fixes and patches.I implemeted achievements, new activity feature and haptic technology which comes whith the latest PS5 consoles. I have shipped two titles for all consoles with credits. You can view my resume and contact details<a href ="Pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" attributes-list> <span id = "Resumelink">Here.</span> </a>Please go to Industry Projects page for more details on my projects.</p>
-</div>
-    <footer>
+    <div id = "description1">
+        <p>I am a Gameplay Programmer with 2 years of experience in video game industry, who enjoys writing effective, well-organized code and is always eager to take on new challenges.</p>
         <nav>
-            <ul class="Foot_links">
-               <li><a href="Pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" >Resume</a></li>
-                <li><i>8076872162</i></li>
-                <li><i><span id="texticon">Aditya12.133@gmail.com</span></i></li>
-                <li><a href="https://www.linkedin.com/in/aditya-kumar-meena" target="_blank" rel="noopener noreferrer"><span id="texticon">LinkedIn</span></a></li>
-                <li><a href="https://www.youtube.com/channel/UCbAqBPwjMQodx2lzFkaMj2A/playlists" target="_blank" rel="noopener noreferrer"><span id="texticon">YouTube</span></a></li>
+            <ul class="Bio_Buttons">
+                <li1><button id="SkillActive" onclick="openSkills()">Skills</button></li1>
+                <li1><button onclick="openExperience()">Experience</button></li1>
+                <li1><button onclick="openEducation()">Education</button></li1>
             </ul>
         </nav>
-    </footer>
+
+        <!--Skills section-->
+        <div id="container2">
+            <div class ="tab-contents active-tab" id = "Skills">
+            <p><h>Unreal Engine (4, 5)</h></p>
+            <p><h>C++ (OOPS), C#</h></p>
+            <p><h>Visual Scripting(Blueprints)</h></p>
+            <p><h>Gameplay Artificial Intelligence</h></p>
+            <p><h>Optimization</h></p>
+            <p><h>Porting(All Consoles)</h></p>
+            <p><h>Version Control(GIT,Perforce)</h></p>
+            </div>
+
+            <!--Experiance section-->
+            <div id = "Experience">
+            <p1><span id = "year">12/2021-09/2022</span><br>Trainee Programmer (GodSpeed Games)
+                <ul class="Experiance">
+                    <li>Managed the porting of a AA title for all consoles and PC.</li>
+                    <li>Optimized game performance, Fixed bugs, and added new features.</li>
+                    <li>Optimized a game from 10fps to 30fps on nintendo and 60+ fps for any other consoles.</li>
+                </ul> 
+            <p1><span id = "year">10/2022-09/2023</span><br>Junior Programmer (GodSpeed Games)
+                <ul class="Experiance">
+                    <li>Managed and helped in porting of a game on Switch console. </li>
+                    <li>Cordinating with clients for the updates and fixing major bugs on client's end too.</li>
+                    <li>Recieved credits in the credit roll of two games (Charon's Staircase & Seven Doors)</li>
+                    <li>Worked with version control to manage and update the projects for all the team.</li>
+                </ul> 
+            </p1>
+            </div>
+
+            <!--Education section-->
+            <div id = "Education">
+            <p1><span id = "year">2017-2021</span><br>Computer Science Engineering<br>CGPA: 7.7<br><br>
+            <p1><span id = "year">2017</span><br>XII<br>60%
+            </p1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class = "MyWorks" id="MyWorksLink">
+        <h id = "mywork-title"><span id="HomeTagA">M</span><span id="HomeTag">y Wor</span><span id="HomeTagA">k</span></h>
+    </div>
+    <div class="gallery-wrap">
+        <img src="images/back.png" id="backbtn">
+        <div class="gallery">
+        <div>
+            <span><img src="images/CharonStaircase.jpg"></span>
+            <span><img src="images/SevenDoors.jpg"></span>
+        </div>
+        <div>
+            <span><img src="images/SpaceInvincible.png"></span>
+            <span><img src="images/Shooter.png"></span>
+        </div>
+        <div>
+            <span><img src="images/wacky.png"></span>
+            <span><img src="images/RollBall.png"></span>
+        </div>
+        <div>
+            <span><img src="images/BoxShooter.png"></span>
+            <span><img src="images/Ball_Drag.png"></span>
+        </div>
+    </div>
+        <img src="images/next.png" id="nextbtn">
+    </div>
+</div>
+<div>
+    <div class = "Contact" id="ContactLink">
+        <h id = "Contact-title"><span id="HomeTagA">C</span><span id="HomeTag">ontact M</span><span id="HomeTagA">e</span></h>
+    </div>
+    <div class="mail">
+        <i class="fa-solid fa-paper-plane"></i>
+        <span class="email">Aditya12.133@gmail.com</span>
+    </div>
+    <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+        <span class="phoneNumber">8076872162</span>
+    </div>
+    <div class="Social-Icons">
+        <a href="https://www.linkedin.com/in/aditya-kumar-meena/" target="_blank" rel="noopener noreferrer" class="fa-brands fa-linkedin-in"></a>
+        <a href="https://www.youtube.com/@adityakumarmeena6460/playlists" target="_blank" rel="noopener noreferrer" class="fab fa-youtube"></a>
+    </div>
+    <div class="Resume">
+        <a class="mybutton" href="Pdf/Resume.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+    </div>
+</div>
+
+<script>  
+    function openSkills()
+    {
+        /*console.log("Skills opened");*/
+        var SkillId = document.getElementById("Skills");
+        var SkillButton = document.getElementById("SkillActive");
+        var ExperienceId = document.getElementById("Experience");
+        var EducationId = document.getElementById("Education");
+
+        SkillId.style.display = 'block';
+        ExperienceId.style.display = 'none';
+        EducationId.style.display = 'none';
+        SkillButton.style.borderColor = "red"
+        /*SkillButton.style.border = "thick dotted #0000FF";*/
+    }
+    function openExperience()
+    {
+        var SkillId = document.getElementById("Skills");
+        var SkillButton = document.getElementById("SkillActive");
+        var ExperienceId = document.getElementById("Experience");
+        var EducationId = document.getElementById("Education");
+
+        SkillId.style.display = 'none';
+        EducationId.style.display = 'none';
+        ExperienceId.style.display = 'block';
+        SkillButton.style.borderColor = "black"
+
+    }
+    function openEducation()
+    {
+        var SkillId = document.getElementById("Skills");
+        var SkillButton = document.getElementById("SkillActive");
+        var ExperienceId = document.getElementById("Experience");
+
+        var EducationId = document.getElementById("Education");
+
+        SkillId.style.display = 'none';
+        ExperienceId.style.display = 'none';
+        EducationId.style.display = 'block';
+        SkillButton.style.borderColor = "black"
+    }
+
+    let scrollContainer = document.querySelector(".gallery");
+    let backBtn = document.getElementById("backbtn");
+    let nextBtn = document.getElementById("nextbtn");
+
+    scrollContainer.addEventListener("wheel",(evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+        scrollContainer.style.scrollBehavior = "auto";
+    });
+
+    nextBtn.addEventListener("click",() => {
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft += 300;
+    });
+
+    backBtn.addEventListener("click",() => {
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft -= 300;
+    });
+</script>
+
 </body>
 </html> 
